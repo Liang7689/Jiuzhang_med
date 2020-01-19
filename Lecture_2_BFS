@@ -1,0 +1,12 @@
+1. 队列是通过链表实现的， 所以可以高效的删除第一个元素。
+python 的队列： Queue 和 deque
+deque - 双向队列，使用双向链表实现.
+可以尝试自己实现deque， circular array, dynamic array
+Queue 主要用来实现多线程。 deque就是为了实现队列这个数据结构，比较纯粹
+deque.popleft(), deque.append()
+BFS <--> Queue
+DFS <--> Stack
+二叉树的序列化： 1. BFS order， 2. use ‘#’ represent void.
+BFS的时间复杂度O(m + n), m is the number of vertex, n is the number of edge.
+implicit graph
+双向宽度搜索，提速 sqrt(n).
