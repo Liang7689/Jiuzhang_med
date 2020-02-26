@@ -1,2 +1,3 @@
 时间局部性原理：人倾向于重复使用最近用过的东西。LRU Cache
+Python uses min heap by default, meaning the root value is the smallest node. heapq.heappop() pops the root, and then replaces the root with the lowest and rightest node, then sinks the root until the heap property is satified, if necessary.
 
